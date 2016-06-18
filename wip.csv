@@ -1,0 +1,4 @@
+ID,DateDue,InvoiceID,Customer,TotalCases,CompPE,CompIH,CompCon,TotalPE,TotalIH,TotalContract,ContractOnHand,Cap,Size,Status,OrderStatus,Payment,Paid,DeliveryMethod,DeliveryLocation,OrderNotes,CreatedBy,CreatedDate,PrinterModel,,,,
+1,4/28/2008,123,Somebody,10,0,10,0,0,240,0,0,White,12,Courier Has Picked Up,Courier Has Picked Up,Invoice,TRUE,My Delivery,n/a,Note #1 -bob,n/a,000000000039BD41,n/a,,,,
+2,4/15/2008,456,Some Customer,20,0,20,0,0,480,0,0,White,,Courier Has Picked Up,Courier Has Picked Up,invoice,TRUE,Pick up/ will pick up on Thursday the 10th,n/a,n/a,n/a,000000000039BD42,n/a,,,,
+3,4/22/2008,678,Another Customer,10,0,10,0,0,240,0,0,n/a,,Courier Has Picked Up,Courier Has Picked Up,Invoice,TRUE,delivery/ please contact bill bob bakersfield,n/a,n/a,n/a,000000000039BD43,n/a,,,,

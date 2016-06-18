@@ -1,0 +1,20 @@
+<template>
+    <section>
+        <h2>${heading}</h2>
+        <p>Viewing ${orderCount} orders</p>
+        <button class="btn btn-danger" click.trigger="clearData()">Unload Data</button>
+        <button class="btn btn-success" click.trigger="loadData()">Load/Refresh Data</button>
+        <table class="table table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>Order ID</th><th>Customer</th><th>Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr repeat.for="order of orders">
+              <td>${order.ID}</td><td>${order.Customer}</td><td>${order.TotalCases}</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+</template>
