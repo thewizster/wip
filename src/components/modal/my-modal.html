@@ -1,0 +1,32 @@
+<template>
+   <ai-dialog>
+      <ai-dialog-body>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-4">
+                    <h3>${data.Customer}</h3>
+                    <div>Invoice ID</div>
+                    <p>${data.InvoiceID}</p>
+                    <div>OrderStatus</div>
+                    <p>${data.OrderStatus}</p>
+                    <div>Cap Color</div>
+                    <p>${data.Cap}</p>
+                    <div>Delivery Location</div>
+                    <p>${data.DeliveryLocation}</p>
+                    <div>Delivery Method</div>
+                    <p>${data.DeliveryMethod}</p>
+                  </div>
+                  <div class="col-md-4"></div>
+              </div>
+          </div>
+      </ai-dialog-body>
+
+      <ai-dialog-footer>
+         <button class="btn btn-danger" click.trigger = "controller.cancel()">Cancel</button>
+         <button class="btn btn-success" click.trigger = "controller.ok(data)">Ok</button>
+      </ai-dialog-footer>
+	
+   </ai-dialog>
+	
+</template>
